@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-VideoGameAPITestSuite" class="navigator-link">
+              <span class="suite-name border-passed">VideoGameAPITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-VideoGameAPITestSuite" class="navigator-link ">
+                    <span>C:\Users\91900\eclipse-workspace2\VideoGameAPIProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-VideoGameAPITestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-VideoGameAPITestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-VideoGameAPITestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-VideoGameAPITestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-VideoGameAPITestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-VideoGameAPITestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-VideoGameAPITestSuite" class="hide-methods passed suite-VideoGameAPITestSuite"> (hide)</a> <!-- hide-methods passed suite-VideoGameAPITestSuite -->
+                      <a href="#" panel-name="suite-VideoGameAPITestSuite" class="show-methods passed suite-VideoGameAPITestSuite"> (show)</a> <!-- show-methods passed suite-VideoGameAPITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-VideoGameAPITestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-VideoGameAPITestSuite" title="testCases.VideoGameAPITest" class="method navigator-link" hash-for-method="test_UpdateVideoGame">test_UpdateVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-VideoGameAPITestSuite" title="testCases.VideoGameAPITest" class="method navigator-link" hash-for-method="test_createNewVideoGame">test_createNewVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-VideoGameAPITestSuite" title="testCases.VideoGameAPITest" class="method navigator-link" hash-for-method="test_deleteVideoGame">test_deleteVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-VideoGameAPITestSuite" title="testCases.VideoGameAPITest" class="method navigator-link" hash-for-method="test_getAllVideoGames">test_getAllVideoGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-VideoGameAPITestSuite" title="testCases.VideoGameAPITest" class="method navigator-link" hash-for-method="test_getVideoGame">test_getVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-VideoGameAPITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-VideoGameAPITestSuite" class="panel VideoGameAPITestSuite">
+          <div class="suite-VideoGameAPITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.VideoGameAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_UpdateVideoGame">
+                  </a> <!-- test_UpdateVideoGame -->
+                  <span class="method-name">test_UpdateVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_createNewVideoGame">
+                  </a> <!-- test_createNewVideoGame -->
+                  <span class="method-name">test_createNewVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_deleteVideoGame">
+                  </a> <!-- test_deleteVideoGame -->
+                  <span class="method-name">test_deleteVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_getAllVideoGames">
+                  </a> <!-- test_getAllVideoGames -->
+                  <span class="method-name">test_getAllVideoGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_getVideoGame">
+                  </a> <!-- test_getVideoGame -->
+                  <span class="method-name">test_getVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-VideoGameAPITestSuite-class-passed -->
+        </div> <!-- panel VideoGameAPITestSuite -->
+        <div panel-name="test-xml-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91900\eclipse-workspace2\VideoGameAPIProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;VideoGameAPITestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;VideoGameAPITests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.VideoGameAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VideoGameAPITests --&gt;
+&lt;/suite&gt; &lt;!-- VideoGameAPITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for VideoGameAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">VideoGameAPITests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for VideoGameAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for VideoGameAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_VideoGameAPITestSuite');
+function tableData_VideoGameAPITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_getAllVideoGames')
+data.setCell(0, 2, 'testCases.VideoGameAPITest')
+data.setCell(0, 3, 3219);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_createNewVideoGame')
+data.setCell(1, 2, 'testCases.VideoGameAPITest')
+data.setCell(1, 3, 841);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_getVideoGame')
+data.setCell(2, 2, 'testCases.VideoGameAPITest')
+data.setCell(2, 3, 519);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_UpdateVideoGame')
+data.setCell(3, 2, 'testCases.VideoGameAPITest')
+data.setCell(3, 3, 88);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_deleteVideoGame')
+data.setCell(4, 2, 'testCases.VideoGameAPITest')
+data.setCell(4, 3, 45);
+window.suiteTableData['VideoGameAPITestSuite']= { tableData: data, tableDiv: 'times-div-VideoGameAPITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-VideoGameAPITestSuite">
+              </div> <!-- times-div-VideoGameAPITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for VideoGameAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-VideoGameAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.VideoGameAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_getAllVideoGames</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_createNewVideoGame</span>
+                <span class="method-start">3233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_getVideoGame</span>
+                <span class="method-start">4076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_UpdateVideoGame</span>
+                <span class="method-start">4597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_deleteVideoGame</span>
+                <span class="method-start">4688 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
